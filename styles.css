@@ -76,7 +76,7 @@ footer {
     background-color: #faf0e6;
     padding: 20px;
     box-sizing: border-box; /* 避免內邊距影響寬度計算 */
-    height: 100%; /* 確保填滿父元素的高度 */
+    height: 85vh; /* 確保填滿父元素的高度 */
 }
 
 .YUKIAKATSUKI {
