@@ -1,0 +1,93 @@
+/* styles.css */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: left;
+}
+
+header h1 {
+    position: absolute;
+    left: 10px;
+    margin: 0;
+}
+
+header h2 {
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    right: 1vw;
+    top: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 3vw;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.AboutYUKIAKATSUKI img {
+    width: 100%; /* 調整圖片寬度填滿容器 */
+    max-width: 100%;
+    height: auto;
+}
+.AboutYUKIAKATSUKI {
+    display: flex;
+    flex: 1; /* 佔滿剩餘空間 */
+    justify-content: space-between; /* 將兩個元素分別靠左和靠右 */
+    background-color: #faf0e6;
+    padding: 20px;
+    box-sizing: border-box; /* 避免內邊距影響寬度計算 */
+}
+
+.YUKIAKATSUKI {
+    width: 45%; /* 調整文字內容區塊寬度 */
+    background-color: #faf0e6;
+    background-image: url(img/text-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    box-sizing: border-box; /* 避免內邊距影響寬度計算 */
+    
+}
