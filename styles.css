@@ -1,96 +1,99 @@
-/* styles.css */
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: left;
-}
-
-header h1 {
-    position: absolute;
-    left: 10px;
+*{
     margin: 0;
-}
-
-header h2 {
-    position: relative;
-    top: 20px;
-    left: 5px;
-}
-
-nav ul {
-    list-style-type: none;
     padding: 0;
-    position: absolute;
-    right: 1vw;
-    top: 25px;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 3vw;
+header{
+    background-color: transparent;
+    color: #E2D2D2;
+    height: 80px;
+    width: 100%;
 }
 
-nav ul li a {
-    color: #fff;
+header a{
+    color: #BA0C2F;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
+header a:hover{
+    color: #ba0c2f80;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+header li{
+    display: inline;
+    margin: 2vw;
 }
 
-main {
-    padding: 0px;
-    margin: 0;
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+h1{
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+
+footer{
+    background-color: black;
+    color: gray;
     text-align: center;
-    position: fixed;
+}
+
+.homepage{
+    background-color: transparent;
+    height: 100vh;
     width: 100%;
-    bottom: 0;
-}
-
-.AboutYUKIAKATSUKI img {
-    width: 100%; /* 調整圖片寬度填滿容器 */
-    max-width: 100%;
-    height: auto;
-
-}
-
-.AboutYUKIAKATSUKI {
     display: flex;
-    justify-content: space-between; /* 將兩個元素分別靠左和靠右 */
-    background-color: #faf0e6;
-    padding: 20px;
-    box-sizing: border-box; 
-    height: 85vh;
-    background-image: url(image/background.jpg);
+}
+
+.homepage img{
+    width: 50%;
+    background-color: transparent;
+}
+
+.char_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-image: url(image/textbackground.jpg);
+    background-size: 70% 95%;
     background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6em;
+    width: 60%;
+    margin-bottom: 5vw;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6em;
+    width: 60%;    
+}
+
+.about h3, .story h3{
+    margin-bottom:10px;
+}
+
+body{
+    background-image: url(image/wallpaper.jpg);
     background-size: cover;
-}
-
-.YUKIAKATSUKI {
-    width: 45%;
-    height: 70%;
-    background-color: #faf0e6;
-    background-image: url(img/text-background.png);
-    background-repeat: no-repeat;
-    text-align: center;    
-}
-
-.YUKIAKATSUKI p {
-    text-align: left;
+    backdrop-filter: blur(5px);
 }
