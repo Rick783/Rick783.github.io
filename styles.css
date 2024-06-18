@@ -50,11 +50,8 @@ body {
 }
 
 main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
+    padding: 0px;
+    margin: 0;
 }
 
 footer {
@@ -70,14 +67,16 @@ footer {
     width: 100%; /* 調整圖片寬度填滿容器 */
     max-width: 100%;
     height: auto;
+
 }
+
 .AboutYUKIAKATSUKI {
     display: flex;
-    flex: 1; /* 佔滿剩餘空間 */
     justify-content: space-between; /* 將兩個元素分別靠左和靠右 */
     background-color: #faf0e6;
     padding: 20px;
     box-sizing: border-box; /* 避免內邊距影響寬度計算 */
+    height: 100%; /* 確保填滿父元素的高度 */
 }
 
 .YUKIAKATSUKI {
