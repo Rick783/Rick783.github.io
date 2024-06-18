@@ -11,8 +11,9 @@ header{
 }
 
 header a{
-    color: #BA0C2F;
+    color: #a83457;
     text-decoration: none;
+    font-size: 17px;
 }
 
 header a:hover{
@@ -56,6 +57,17 @@ footer{
     background-color: transparent;
 }
 
+.char{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.char img{
+    height: 100%;
+    width: auto;
+}
+
 .char_text{
     width: 50%;
     display: flex;
@@ -64,7 +76,7 @@ footer{
     justify-content: center;
     margin: 0;
     background-image: url(image/textbackground.jpg);
-    background-size: 70% 95%;
+    background-size: 77% 95%;
     background-repeat: no-repeat;
     background-position: center;
 }
