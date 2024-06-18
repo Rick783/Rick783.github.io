@@ -75,18 +75,22 @@ footer {
     justify-content: space-between; /* 將兩個元素分別靠左和靠右 */
     background-color: #faf0e6;
     padding: 20px;
-    box-sizing: border-box; /* 避免內邊距影響寬度計算 */
-    height: 85vh; /* 確保填滿父元素的高度 */
+    box-sizing: border-box; 
+    height: 85vh;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .YUKIAKATSUKI {
-    width: 45%; /* 調整文字內容區塊寬度 */
+    width: 45%;
+    height: 70%;
     background-color: #faf0e6;
     background-image: url(img/text-background.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 20px;
-    box-sizing: border-box; /* 避免內邊距影響寬度計算 */
-    
+    text-align: center;    
+}
+
+.YUKIAKATSUKI p {
+    text-align: left;
 }
