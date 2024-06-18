@@ -66,6 +66,8 @@ footer{
 .char img{
     height: 100%;
     width: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .char_text{
